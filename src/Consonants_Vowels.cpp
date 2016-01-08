@@ -33,9 +33,7 @@ void count_vowels_and_consonants(char *str, int *consonants, int *vowels){
 	*vowels = 0, *consonants = 0;
 	for (int i = 0; i < strLen; i++){
 		if (str[i] == 'A' || str[i] == 'E' || str[i] == 'I' || str[i] == 'O' || str[i] == 'U' || str[i] == 'a' || str[i] == 'e' || str[i] == 'i' || str[i] == 'o' || str[i] == 'u')
-		{
 			*vowels += 1;
-		}
 		else if (('A' <= str[i] && str[i] <= 'Z') || ('a' <= str[i] && str[i] <= str[i]))
 			*consonants += 1;
 	}
