@@ -36,8 +36,7 @@ char * get_sub_string(char *str, int i, int j){
 				ans[k - i] = str[k];
 			}
 			ans[k - i] = '\0';
-			return ans;
 		}
 	}
-	return NULL;
+	return ans;
 }
